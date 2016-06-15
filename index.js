@@ -2,7 +2,7 @@
 
 const axios = require('axios');
 const retry = require('retry-promise').default;
-const axiosMethods = ['get', 'post', 'delete', 'head', 'put', 'patch', 'all'];
+const axiosMethods = ['get', 'post', 'delete', 'head', 'put', 'patch', 'all', 'spread'];
 const methods = {};
 
 axiosMethods.forEach((method) => {
